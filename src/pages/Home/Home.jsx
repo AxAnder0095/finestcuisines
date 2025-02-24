@@ -19,6 +19,7 @@ function Home(){
                         <div className='fav-items col-md-2'>
                             <Favoriteitem
                                 name={FavoritesData.tenders.name}
+                                alt={FavoritesData.tenders.alt}
                                 description={FavoritesData.tenders.description}
                                 image={FavoritesData.tenders.image}
                             />
@@ -26,6 +27,7 @@ function Home(){
                         <div className='fav-items col-md-2'>
                             <Favoriteitem
                                 name={FavoritesData.burger.name}
+                                alt={FavoritesData.burger.alt}
                                 description={FavoritesData.burger.description}
                                 image={FavoritesData.burger.image}
                             />
@@ -33,6 +35,7 @@ function Home(){
                         <div className='fav-items col-md-2'>
                             <Favoriteitem
                                 name={FavoritesData.birria.name}
+                                alt={FavoritesData.birria.alt}
                                 description={FavoritesData.birria.description}
                                 image={FavoritesData.birria.image}
                             />
