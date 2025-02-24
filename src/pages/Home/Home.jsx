@@ -42,7 +42,7 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <div className='row border border-dark p-5' id='ad-row'>
+                <div className='row p-5' id='ad-row'>
                     <div className='col-xl-4'>
                         <div>
                             <img src={BURG} alt='BURG' style={{ width: '500px', height: '300px' }} />
@@ -58,8 +58,16 @@ function Home(){
                         </span>
                     </div>
                 </div>
-                <div className='row border border-dark' id='news-row'>
-                    s
+                <div className='row d-flex justify-content-center p-5' id='news-row'>
+                    <div className='col-4 p-5' id='news-column-container'>
+                        <h1 className='text-center'>News</h1>
+                        <span className='span-block text-center' id='news'>
+                            New location opened up in downtown Aurora! Stop by for the
+                            <br/> grand opening of our newest location and get a free shake on us! <br/> We
+                            are happy to open up a new location for our new customers to try out our
+                            <br/> finest cuisines! Follow our social media for more information. 
+                        </span>
+                    </div>
                 </div>
             </div>
         </>

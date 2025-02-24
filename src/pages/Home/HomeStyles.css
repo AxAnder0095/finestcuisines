@@ -84,6 +84,21 @@
     color: gold;
     transition: 0.5s ease;
 }
+
+/*news row styling*/
+#news-row{
+    font-family: "Staatliches", serif;
+    background-color: #610101;
+}
+
+#news-column-container{
+    background-color: white;
+    color: #610101;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    width: 600px;
+}
+
 @media (max-width: 992px){
 
 }

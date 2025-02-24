@@ -20,12 +20,17 @@ function Navbar() {
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link to={"/"} className='header-links nav-link'>
-                                    Locations
+                                    Home
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to={"/"} className='header-links nav-link'>
+                                <Link to={"/menu"} className='header-links nav-link'>
                                     Menu
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to={"/locations"} className='header-links nav-link'>
+                                    Locations
                                 </Link>
                             </li>
                             <li className="nav-item">
