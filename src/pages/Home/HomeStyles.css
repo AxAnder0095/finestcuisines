@@ -1,0 +1,103 @@
+
+/*main container of the home page*/
+#home-container{
+
+}
+
+
+/*food display row css styles*/
+#food-display-row{
+    background-image: url("../imgs/steak.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: var(--primary-bg);
+    height: 400px;
+}
+
+#food-display-row:before{
+    opacity: 50%;
+}
+
+#restaurant-tagline, #restaurant-title {
+    color: white;
+    transition: 0.5s ease;
+}
+
+#restaurant-tagline:hover, #restaurant-title:hover {
+    color: #610101;
+    transition: 0.5s ease;
+}
+
+#restaurant-title {
+    font-size: 6rem;
+    font-family: "Staatliches", serif;
+}
+
+#restaurant-tagline{
+    font-size: 4rem;
+    font-family: "Parisienne", serif;
+    font-weight: bold;
+}
+
+.span-block{
+    display: block;
+}
+
+
+/*popular foods row styling*/
+#popular-food-row{
+    font-family: "Staatliches", serif;
+    color: white;
+    background-color: #610101;
+}
+
+.fav-items{
+    width: 300px;
+    box-shadow: 0 0 5px white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.fav-items:hover{
+    box-shadow: 0 0 20px white;
+    width: 320px;
+    transition: 0.5s;
+}
+
+/*ad row styling*/
+#ad-row{
+    font-family: "Staatliches", serif;
+    color: #610101;
+}
+
+#promo{
+    font-size: 1.5rem;
+}
+
+#twitter-link{
+    text-decoration: none;
+    color: goldenrod;
+    transition: 0.5s ease;
+}
+
+#twitter-link:hover{
+    color: gold;
+    transition: 0.5s ease;
+}
+@media (max-width: 992px){
+
+}
+
+@media(max-width:767px){
+
+}
+
+@media(max-width:755px){
+    .fav-items{
+        width: 400px;
+    }
+
+    .fav-items:hover{
+        width: 430px;
+    }
+}

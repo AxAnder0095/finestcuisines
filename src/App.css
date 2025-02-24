@@ -1,8 +1,8 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+:root {
   font-size: 16px;
-  background-color: ghostwhite;
-  color: black;
+  background-color: white;
+  height: 100%;
+  --primary-bg: white;
+  --secondary-bg: black;
 }
+

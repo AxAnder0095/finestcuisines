@@ -1,4 +1,4 @@
-import Home from "../pages/Home.jsx";
+import Home from "../pages/Home/Home.jsx";
 import Navbar from "../components/navbar/Navbar.jsx";
 
 function Layout(){
