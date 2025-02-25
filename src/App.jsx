@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home.jsx";
 import Menu from "./pages/Menu/Menu.jsx";
 import Locations from "./pages/Locations/Locations.jsx";
 import About from "./pages/About/About.jsx";
+import Appetizers from "./pages/Menu/SubMenu/Appetizers.jsx";
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
           <Routes>
               <Route path={"/"} element={<Layout/>}>
                   <Route index element={<Home/>}/>
-                  <Route path={'/menu'} element={<Menu/>}/>
+                  <Route path={'/menu'} element={<Menu/>}>
+                      <Route path={'appetizers'} element={<Appetizers/>}/>
+                  </Route>
                   <Route path={'/locations'} element={<Locations/>}/>
                   <Route path={'/about'} element={<About/>}/>
               </Route>
