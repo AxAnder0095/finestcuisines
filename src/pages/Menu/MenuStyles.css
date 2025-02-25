@@ -1,0 +1,12 @@
+#menu-container{
+    font-family: "Staatliches", serif;
+}
+
+#menu-container-intro{
+    height: 400px;
+}
+
+#menu-title{
+    font-size: 8rem;
+    color: var(--secondary-text-color);
+}

@@ -1,0 +1,13 @@
+#about-container {
+    font-family: "Staatliches", serif;
+    height: 1000px;
+}
+
+#about-header{
+    font-size: 5rem;
+}
+
+#about-desc{
+    font-size: 1.2rem;
+    width: 700px;
+}
