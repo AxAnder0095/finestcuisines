@@ -10,3 +10,9 @@
     font-size: 8rem;
     color: var(--secondary-text-color);
 }
+
+.menu-type{
+    width: 380px;
+    height: 400px;
+    border-radius: 10px;
+}
