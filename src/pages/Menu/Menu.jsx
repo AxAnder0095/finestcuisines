@@ -1,7 +1,7 @@
 import './MenuStyles.css'
 import BURGER from '../imgs/burg.jpg'
 import CHICKEN from '../imgs/tenders.jpg'
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 
 function Menu(){
     return (
@@ -68,6 +68,9 @@ function Menu(){
                         <Link to={"/"} className='sub-menu-button'> View More</Link>
                     </div>
                 </div>
+            </div>
+            <div className='row d-flex justify-content-center mt-5'>
+                <Outlet/>
             </div>
         </div>
     )
