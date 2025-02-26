@@ -1,0 +1,13 @@
+#locations-container {
+    font-family: "Staatliches", serif;
+    height: 1000px;
+}
+
+#locations-header{
+    font-size: 5rem;
+}
+
+#locations-desc{
+    font-size: 1.2rem;
+    width: 700px;
+}

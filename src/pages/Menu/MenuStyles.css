@@ -3,12 +3,15 @@
 }
 
 #menu-container-intro{
+    background-image: url("../imgs/steak.jpg");
+    background-position: center;
+    background-size: cover;
     height: 400px;
 }
 
 #menu-title{
     font-size: 8rem;
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .menu-type{
@@ -42,4 +45,11 @@
 
 .sub-menu-button:hover{
     background-color: red;
+}
+
+.bottom-food-row{
+    color: var(--primary-text-color);
+    background-color: var(--secondary-bg);
+    padding-bottom: 50px;
+    padding-top: 50px;
 }

@@ -1,8 +1,29 @@
+
+
 .appetizer-items{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .order-button{
     border: none;
+}
 
+.app-name-desc{
+    width: 450px;
+}
+
+.order-button{
+    color: var(--primary-text-color);
+    transition: 0.4s ease;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-bg);
+}
+
+.order-button:hover{
+    background-color: var(--secondary-bg);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 0.4s ease;
 }

@@ -1,7 +1,9 @@
 import './MenuStyles.css'
+import POTATO from '../imgs/potato skins.jpg'
 import BURGER from '../imgs/burg.jpg'
 import CHICKEN from '../imgs/tenders.jpg'
 import {Link, Outlet} from 'react-router-dom'
+
 
 function Menu(){
     return (
@@ -15,7 +17,7 @@ function Menu(){
                 <div className='col-2 text-center menu-type'>
                     <div className='inner-menu-type'>
                         <div>
-                            <img src={BURGER} alt="appetizer image" className='menu-images'/>
+                            <img src={POTATO} alt="appetizer image" className='menu-images'/>
                         </div>
                         <h4 className='pt-3 pb-3'>Appetizers</h4>
                         <Link to={"/menu/appetizers"} className='sub-menu-button'> View More</Link>
@@ -27,7 +29,7 @@ function Menu(){
                             <img src={BURGER} alt="appetizer image" className='menu-images'/>
                         </div>
                         <h4 className='pt-3 pb-3'>Burgers</h4>
-                        <Link to={"/"} className='sub-menu-button'> View More</Link>
+                        <Link to={"/menu/burgers"} className='sub-menu-button'> View More</Link>
                     </div>
                 </div>
                 <div className='col-2 text-center menu-type'>
@@ -36,7 +38,7 @@ function Menu(){
                             <img src={CHICKEN} alt="appetizer image" className='menu-images'/>
                         </div>
                         <h4 className='pt-3 pb-3'>Chicken</h4>
-                        <Link to={"/"} className='sub-menu-button'> View More</Link>
+                        <Link to={"/menu/chicken"} className='sub-menu-button'> View More</Link>
                     </div>
                 </div>
             </div>
@@ -47,7 +49,7 @@ function Menu(){
                             <img src={BURGER} alt="appetizer image" className='menu-images'/>
                         </div>
                         <h4 className='pt-3 pb-3'>Sides</h4>
-                        <Link to={"/"} className='sub-menu-button'> View More</Link>
+                        <Link to={"/menu/sides"} className='sub-menu-button'> View More</Link>
                     </div>
                 </div>
                 <div className='col-2 text-center menu-type'>
@@ -56,7 +58,7 @@ function Menu(){
                             <img src={BURGER} alt="appetizer image" className='menu-images'/>
                         </div>
                         <h4 className='pt-3 pb-3'>Salads</h4>
-                        <Link to={"/"} className='sub-menu-button'> View More</Link>
+                        <Link to={"/menu/salads"} className='sub-menu-button'> View More</Link>
                     </div>
                 </div>
                 <div className='col-2 text-center menu-type'>
@@ -65,11 +67,11 @@ function Menu(){
                             <img src={BURGER} alt="appetizer image" className='menu-images'/>
                         </div>
                         <h4 className='pt-3 pb-3'>Drinks</h4>
-                        <Link to={"/"} className='sub-menu-button'> View More</Link>
+                        <Link to={"/menu/drinks"} className='sub-menu-button'> View More</Link>
                     </div>
                 </div>
             </div>
-            <div className='row d-flex justify-content-center mt-5'>
+            <div className='row d-flex justify-content-center mt-5 bottom-food-row' id='menuID'>
                 <Outlet/>
             </div>
         </div>
